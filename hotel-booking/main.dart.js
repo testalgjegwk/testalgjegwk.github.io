@@ -93478,21 +93478,20 @@ k.r=g
 k.ff(g)}}return A.w(null,r)}})
 return A.x($async$px,r)},
 xI(a,b,c){return this.avZ(a,b,c)},
-avZ(a,b,c){var s=0,r=A.y(t.z),q,p=this,o
+avZ(a,b,c){var s=0,r=A.y(t.z),q=this,p
 var $async$xI=A.u(function(d,e){if(d===1)return A.v(e,r)
 while(true)switch(s){case 0:b.e=c
-s=3
-return A.A(p.cx.Ee(b.a,b.po()),$async$xI)
-case 3:if(e){if(a.e==null){s=1
-break}switch(A.aBH(b.e).a){case 2:o="Successfully cancelled the trips."
+s=2
+return A.A(q.cx.Ee(b.a,b.po()),$async$xI)
+case 2:if(e){switch(A.aBH(b.e).a){case 2:p="Successfully cancelled the trips."
 break
-case 4:o="The booking has been marked as completed."
+case 4:p="The booking has been marked as completed."
 break
-case 3:o="The guest has checked in."
+case 3:p="The guest has checked in."
 break
-case 1:o="The booking has been marked as paid."
+case 1:p="The booking has been marked as paid."
 break
-default:o="The booking has been marked as unpaid."}p.akI(a,"Update Success",o,new A.ap3(p,a))}case 1:return A.w(q,r)}})
+default:p="The booking has been marked as unpaid."}q.akI(a,"Update Success",p,new A.ap3(q,a))}return A.w(null,r)}})
 return A.x($async$xI,r)},
 akI(a,b,c,d){var s=null
 A.k5(s,s,!1,s,new A.ap2(b,c,d),a,s,!0,t.z)}}
